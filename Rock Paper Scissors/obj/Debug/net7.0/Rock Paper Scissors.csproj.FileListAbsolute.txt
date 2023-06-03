@@ -1,0 +1,15 @@
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/bin/Debug/net7.0/Rock Paper Scissors
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/bin/Debug/net7.0/Rock Paper Scissors.deps.json
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/bin/Debug/net7.0/Rock Paper Scissors.runtimeconfig.json
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/bin/Debug/net7.0/Rock Paper Scissors.dll
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/bin/Debug/net7.0/Rock Paper Scissors.pdb
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.csproj.AssemblyReference.cache
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.AssemblyInfoInputs.cache
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.AssemblyInfo.cs
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.csproj.CoreCompileInputs.cache
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.dll
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/refint/Rock Paper Scissors.dll
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.pdb
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/Rock Paper Scissors.genruntimeconfig.cache
+/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/Debug/net7.0/ref/Rock Paper Scissors.dll
