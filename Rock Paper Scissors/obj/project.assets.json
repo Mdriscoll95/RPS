@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/Rock Paper Scissors.csproj",
+      "projectUniqueName": "/Users/michaeldriscoll/Desktop/repos/Rock Paper Scissors/Rock Paper Scissors/Rock Paper Scissors.csproj",
       "projectName": "Rock Paper Scissors",
-      "projectPath": "/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/Rock Paper Scissors.csproj",
+      "projectPath": "/Users/michaeldriscoll/Desktop/repos/Rock Paper Scissors/Rock Paper Scissors/Rock Paper Scissors.csproj",
       "packagesPath": "/Users/michaeldriscoll/.nuget/packages/",
-      "outputPath": "/Users/michaeldriscoll/Projects/Rock Paper Scissors/Rock Paper Scissors/obj/",
+      "outputPath": "/Users/michaeldriscoll/Desktop/repos/Rock Paper Scissors/Rock Paper Scissors/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/michaeldriscoll/.nuget/NuGet/NuGet.Config"

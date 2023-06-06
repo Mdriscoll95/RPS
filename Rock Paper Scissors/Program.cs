@@ -15,94 +15,93 @@ class Program
         while (playAgain)
         {
 
-        }
+            while (scorePlaeyer < 3 && scoreCPU < 3)
+            {
 
-        while(scorePlaeyer < 3 && scoreCPU < 3)
-        {
 
-        }
 
-        Console.WriteLine("choose between ROCK, PAPER, and SCISSORS:      ");
-        inputPlayer = Console.ReadLine();
+                Console.WriteLine("choose between ROCK, PAPER, and SCISSORS:      ");
+                inputPlayer = Console.ReadLine().ToUpper();
 
-        Random rnd = new Random();
+                Random rnd = new Random();
 
-        randomInt = rnd.Next(1, 4);
+                randomInt = rnd.Next(1, 4);
 
-        switch (randomInt)
-        {
-            case 1:
-                inputCPU = "ROCK";
-                Console.WriteLine("Computer chose ROCK");
-                if (inputPlayer == "ROCK")
+                switch (randomInt)
                 {
-                    Console.WriteLine("DRAW!! \n\n ");
-                }
-                else if (inputPlayer == "PAPER")
-                {
-                    Console.WriteLine("PLAYER WINS!!\n\n");
-                    scorePlaeyer++;
-                }
-                else if (inputPlayer == "SCISSORS")
-                {
-                    Console.WriteLine("CPU WINS!!\n\n");
-                    scoreCPU++;
-                }
-                break;
+                    case 1:
+                        inputCPU = "ROCK";
+                        Console.WriteLine("Computer chose ROCK");
+                        if (inputPlayer == "ROCK")
+                        {
+                            Console.WriteLine("DRAW!! \n\n ");
+                        }
+                        else if (inputPlayer == "PAPER")
+                        {
+                            Console.WriteLine("PLAYER WINS!!\n\n");
+                            scorePlaeyer++;
+                        }
+                        else if (inputPlayer == "SCISSORS")
+                        {
+                            Console.WriteLine("CPU WINS!!\n\n");
+                            scoreCPU++;
+                        }
+                        break;
 
-            case 2:
-                inputCPU = "PAPER";
-                Console.WriteLine("Computer chose PAPER");
-                if (inputPlayer == "ROCK")
-                {
-                    Console.WriteLine("CPU WINS!! \n\n ");
-                    scoreCPU++;
-                }
-                else if (inputPlayer == "PAPER")
-                {
-                    Console.WriteLine("DRAW!!\n\n");
+                    case 2:
+                        inputCPU = "PAPER";
+                        Console.WriteLine("Computer chose PAPER");
+                        if (inputPlayer == "ROCK")
+                        {
+                            Console.WriteLine("CPU WINS!! \n\n ");
+                            scoreCPU++;
+                        }
+                        else if (inputPlayer == "PAPER")
+                        {
+                            Console.WriteLine("DRAW!!\n\n");
+
+                        }
+                        else if (inputPlayer == "SCISSORS")
+                        {
+                            Console.WriteLine("PLAYER WINS!!\n\n");
+                            scorePlaeyer++;
+
+                        }
+                        break;
+
+                    case 3:
+                        inputCPU = "SCISSORS";
+                        Console.WriteLine("Computer chose SCISSORS");
+                        if (inputPlayer == "ROCK")
+                        {
+                            Console.WriteLine("PLAYER WINS!! \n\n ");
+                            scorePlaeyer++;
+                        }
+                        else if (inputPlayer == "PAPER")
+                        {
+                            Console.WriteLine("CPU WINS!!\n\n");
+                            scoreCPU++;
+                        }
+                        else if (inputPlayer == "SCISSORS")
+                        {
+                            Console.WriteLine("DRAW!!\n\n");
+                            scoreCPU++;
+
+                        }
+                        break;
+
+
+
+                    default:
+                        Console.WriteLine("Invalid entry");
+                        break;
+                        {
+
+                        }
 
                 }
-                else if (inputPlayer == "SCISSORS")
-                {
-                    Console.WriteLine("PLAYER WINS!!\n\n");
-                    scorePlaeyer++;
-
-                }
-                    break;
-            
-            case 3:
-                inputCPU = "SCISSORS";
-                Console.WriteLine("Computer chose SCISSORS");
-                if (inputPlayer == "ROCK")
-                {
-                    Console.WriteLine("PLAYER WINS!! \n\n ");
-                    scorePlaeyer++;
-                }
-                else if (inputPlayer == "PAPER")
-                {
-                    Console.WriteLine("CPU WINS!!\n\n");
-                    scoreCPU++;
-                }
-                else if (inputPlayer == "SCISSORS")
-                {
-                    Console.WriteLine("DRAW!!\n\n");
-                    scoreCPU++;
-
-                }
-                 break;
-
-
-
-            default:
-                Console.WriteLine("Invalid entry");
-                break;
-                {
-                Console.WriteLine("\n\nScores: \tPLAYER : \t{0}\tCPU: \t{1}, ",scorePlaeyer, scoreCPU);
-
-                }
-                
-
+                            Console.WriteLine("\n\nScores: \tPLAYER : \t{0}\tCPU: \t{1}, ", scorePlaeyer, scoreCPU);
+            }
                 
 
 
@@ -115,8 +114,7 @@ class Program
                 {
                     Console.WriteLine("CPU WIN!!!!");
                 }
-                else
-                {
+                
                     Console.WriteLine("Do you want to play again (y/n)");
                     string loop = Console.ReadLine();
                     if(loop == "y")
@@ -128,11 +126,12 @@ class Program
                     {
                         playAgain = false;
                     }
-                    
-                    
+
+            scorePlaeyer = 0;
+            scoreCPU = 0;
 
                    
-                }
+                
 
         }
     }
